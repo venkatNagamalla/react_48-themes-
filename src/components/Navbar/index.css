@@ -1,0 +1,65 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.bg-light-mode {
+  background-color: #ffffff;
+}
+
+.bg-dark-mode {
+  background-color: #000000;
+}
+
+.website-logo {
+  width: 50px;
+}
+
+.nav-icons-container {
+  list-style: none;
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.dark-mode {
+  color: #ffffff;
+}
+.light-mode {
+  color: #000000;
+}
+
+.theme {
+  width: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:active {
+  color: #000000;
+}
+
+.theme-btn {
+  background-color: transparent;
+  border: none;
+}

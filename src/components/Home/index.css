@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.home-img {
+  width: 100px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+
+.home-heading {
+  font-size: 30px;
+  margin-top: 7px;
+}

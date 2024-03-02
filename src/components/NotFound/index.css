@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+.not-found-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 300px;
+}
+
+.not-found-heading {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.not-found-text {
+  font-size: 15px;
+  color: #64748b;
+  margin-top: 15px;
+}
